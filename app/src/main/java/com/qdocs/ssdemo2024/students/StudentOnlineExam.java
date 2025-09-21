@@ -128,8 +128,8 @@ public class StudentOnlineExam extends BaseActivity {
                 status="closed";
                 int size=completed.getWidth();
                 select.animate().x(size).setDuration(100);
-                select.setBackground(ContextCompat.getDrawable(getApplicationContext(), R.drawable.yellow_curve_border));
-                completed.setTextColor(getResources().getColor(R.color.yellow));
+                select.setBackground(ContextCompat.getDrawable(getApplicationContext(), R.drawable.red_new_bg));
+                completed.setTextColor(getResources().getColor(R.color.white));
                 pending.setTextColor(def);
                 if (Utility.isConnectingToInternet(getApplicationContext())) {
                     params.put("student_id", Utility.getSharedPreferences(getApplicationContext(), Constants.studentId));

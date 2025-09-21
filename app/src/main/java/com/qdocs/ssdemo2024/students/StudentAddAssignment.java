@@ -35,6 +35,7 @@ import android.widget.Toast;
 
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.AppCompatButton;
 import androidx.cardview.widget.CardView;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
@@ -90,7 +91,7 @@ public class StudentAddAssignment extends AppCompatActivity {
     private boolean isfromDateSelected = false;
     private boolean istoDateSelected = false;
     Bitmap bitmap;
-    Button submit;
+    AppCompatButton submit;
     private static final int CAMERA_REQUEST = 1888;
     String url;
     private static final int REQUEST_PERMISSIONS = 100;
@@ -176,7 +177,7 @@ public class StudentAddAssignment extends AppCompatActivity {
             }
         });
 
-        submit.setBackgroundColor(Color.parseColor(Utility.getSharedPreferences(getApplicationContext(), Constants.primaryColour)));
+//        submit.setBackgroundColor(Color.parseColor(Utility.getSharedPreferences(getApplicationContext(), Constants.primaryColour)));
         submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

@@ -117,7 +117,7 @@ public class StudentOnlineExamListAdapter extends RecyclerView.Adapter<StudentOn
     public void onBindViewHolder(MyViewHolder holder, final int position) {
         String defaultDatetimeFormat = Utility.getSharedPreferences(context.getApplicationContext(), "datetimeFormat");
 
-        holder.headLayout.setBackgroundColor(Color.parseColor(Utility.getSharedPreferences(context.getApplicationContext(), Constants.secondaryColour)));
+//        holder.headLayout.setBackgroundColor(Color.parseColor(Utility.getSharedPreferences(context.getApplicationContext(), Constants.secondaryColour)));
         holder.examname.setText(examList.get(position));
 
         holder.datefrom.setText(Utility.parseDate("yyyy-MM-dd HH:mm:ss", defaultDatetimeFormat,exam_fromList.get(position)));

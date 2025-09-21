@@ -107,7 +107,7 @@ public class StudentDailyAssignmentAdapter extends RecyclerView.Adapter<StudentD
     public void onBindViewHolder(MyViewHolder holder, final int position) {
         String defaultDateFormat = Utility.getSharedPreferences(context.getApplicationContext(), "dateFormat");
         //DECORATE
-        holder.header.setBackgroundColor(Color.parseColor(Utility.getSharedPreferences(context.getApplicationContext(), Constants.secondaryColour)));
+//        holder.header.setBackgroundColor(Color.parseColor(Utility.getSharedPreferences(context.getApplicationContext(), Constants.secondaryColour)));
 
         holder.subjectNameTV.setText(subject_nameList.get(position));
         holder.titleTV.setText(titleList.get(position));

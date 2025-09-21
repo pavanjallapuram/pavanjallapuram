@@ -268,10 +268,6 @@
         "source": "C:\\Users\\pavan\\.gradle\\daemon\\8.2\\com.qdocs.ssdemo2024.app-main-37:\\layout\\add_leave_dialoug.xml"
     },
     {
-        "merged": "com.qdocs.ssdemo2024.app-merged_res-35:/layout_fragment_main.xml.flat",
-        "source": "com.qdocs.ssdemo2024.app-main-37:/layout/fragment_main.xml"
-    },
-    {
         "merged": "C:\\Users\\pavan\\.gradle\\daemon\\8.2\\com.qdocs.ssdemo2024.app-merged_res-35:\\drawable_ic_photo_library.xml.flat",
         "source": "C:\\Users\\pavan\\.gradle\\daemon\\8.2\\com.qdocs.ssdemo2024.app-main-37:\\drawable\\ic_photo_library.xml"
     },
@@ -1710,6 +1706,10 @@
     {
         "merged": "C:\\Users\\pavan\\.gradle\\daemon\\8.2\\com.qdocs.ssdemo2024.app-merged_res-35:\\layout_quiz_instruction.xml.flat",
         "source": "C:\\Users\\pavan\\.gradle\\daemon\\8.2\\com.qdocs.ssdemo2024.app-main-37:\\layout\\quiz_instruction.xml"
+    },
+    {
+        "merged": "com.qdocs.ssdemo2024.app-merged_res-35:/layout_adapter_student_examlist.xml.flat",
+        "source": "com.qdocs.ssdemo2024.app-main-37:/layout/adapter_student_examlist.xml"
     },
     {
         "merged": "C:\\Users\\pavan\\.gradle\\daemon\\8.2\\com.qdocs.ssdemo2024.app-merged_res-35:\\drawable_corner2.xml.flat",

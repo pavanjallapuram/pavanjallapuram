@@ -219,7 +219,7 @@
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/addLeave_dialog_submitBtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -229,9 +229,9 @@
             android:layout_marginRight="10sp"
             android:background="@drawable/green_curve_border"
             android:text="@string/submit"
-            android:foreground="?attr/selectableItemBackgroundBorderless"
             android:layout_marginBottom="30dp"
             android:fontFamily="sans-serif-condensed"
+            android:backgroundTint="@color/colorAccent"
             android:textColor="@color/white"
             android:textSize="@dimen/primaryText"
             android:textStyle="bold" />
